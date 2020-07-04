@@ -24,7 +24,7 @@ CREATE TABLE crud_database.logs (
     id INT NOT NULL AUTO_INCREMENT,
     log_type_id INT NOT NULL,
     description TEXT NOT NULL,
-	log_date DATETIME DEFAULT NOW(),
+	log_date DATETIME NOT NULL DEFAULT NOW(),
     PRIMARY KEY (id),
     FOREIGN KEY (log_type_id) REFERENCES crud_database.util_log_types(id)
 );
