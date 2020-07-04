@@ -2,6 +2,8 @@ DROP TABLE IF EXISTS crud_database.logs;
 DROP TABLE IF EXISTS crud_database.util_log_types;
 DROP TABLE IF EXISTS crud_database.users;
 
+
+
 -- BEGIN Setup crud_database.util_log_types
 CREATE TABLE crud_database.util_log_types (
     id INT NOT NULL AUTO_INCREMENT,
