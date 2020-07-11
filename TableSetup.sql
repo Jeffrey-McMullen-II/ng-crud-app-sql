@@ -13,6 +13,7 @@ CREATE TABLE crud_database.util_log_types (
 
 INSERT INTO crud_database.util_log_types (description)
 VALUES
+('DEBUG'),
 ('INFO'),
 ('ERROR');
 -- END Setup crud_database.util_log_types
