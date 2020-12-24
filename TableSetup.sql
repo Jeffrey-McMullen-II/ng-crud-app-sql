@@ -1,9 +1,5 @@
-DROP TABLE IF EXISTS crud_database.logs;
-DROP TABLE IF EXISTS crud_database.util_log_types;
-DROP TABLE IF EXISTS crud_database.users;
-DROP TABLE IF EXISTS crud_database.files;
-
-
+DROP DATABASE IF EXISTS crud_database;
+CREATE DATABASE crud_database;
 
 -- BEGIN Setup crud_database.util_log_types
 CREATE TABLE crud_database.util_log_types (
