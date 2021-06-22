@@ -33,9 +33,9 @@ CREATE TABLE crud.logs (
 -- BEGIN Setup crud.users
 CREATE TABLE crud.users (
     user_id INT NOT NULL AUTO_INCREMENT,
-    user_email VARCHAR(50),
-    user_first_name VARCHAR(25),
-	user_last_name VARCHAR(25),
+    email VARCHAR(50),
+    first_name VARCHAR(25),
+	last_name VARCHAR(25),
     PRIMARY KEY (user_id)
 );
 -- END Setup crud.users
